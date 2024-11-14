@@ -11,6 +11,6 @@ A = "Moo!";
 
 console.log(A)
 
-const C = "Moo!"; // I can't have declare a constant variable like undefined, and because declare the variable an his value in a same line
+const C = "Moo!"; // I can't have declare a constant variable like undefined, because i declare the variable an his value in a same line
 
 console.log(B)

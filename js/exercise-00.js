@@ -17,7 +17,7 @@ const B = true;
 
 const Nl = null;
 
-let U;
+let U = undefined;
 
 
 

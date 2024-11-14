@@ -4,18 +4,20 @@
     2. Log the result of any function call.
 */
 function getTypeOf(value) {
-    if (value === null) {
-        return 'null';
-    }
     return typeof value;
 }
 
-console.log(getTypeOf("Arnau"));
+const S = "Arnau";
+console.log({ user: getTypeOf(S) });
 
-console.log(getTypeOf(26));
+const N = 26;
+console.log({ salary: getTypeOf(N) });
 
-console.log(getTypeOf(true));
+const B = true;
+console.log({ isVisible: getTypeOf(B) });
 
-console.log(getTypeOf(null));
+const Nl = null;
+console.log({ userData: getTypeOf(Nl) });
 
-console.log(getTypeOf());
+const U = undefined;
+console.log({ userState: getTypeOf(U) });
