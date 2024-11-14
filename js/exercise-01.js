@@ -9,3 +9,18 @@
       Log 'name' value.
 
 */
+--1
+let name = "Arnau";
+--2
+function updateValue(newValue) {
+  name = newValue;
+}
+--3
+updateValue("Eminem");
+console.log(name);
+--4
+updateValue(true);
+console.log(name);
+--5
+updateValue(28);
+console.log(name);
